@@ -1,0 +1,33 @@
+.blog-post{
+    max-width: 1500px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.blog-post .blog-post-card{
+    border: 1px solid #919b9f;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.blog-post .blog-post-card h3{
+    margin-bottom: 6px;
+}
+
+.blog-post .blog-post-card p{
+    font-size: 0.8em;
+    line-height: 2em;
+    
+}
+
+.blog-post .blog-post-card a{
+    text-decoration: none;
+    color: black;
+    background: #919b9f;
+    border: 4px;
+    padding: 10px;
+    display: block;
+}

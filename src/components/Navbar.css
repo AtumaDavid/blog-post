@@ -2,6 +2,7 @@
     background: #919b9f;
     padding: 15px;
     color: black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .navbar nav{
@@ -14,5 +15,20 @@
 .navbar a.brand{
     margin-right: auto;
     text-decoration: none;
+    color: black;
+}
+
+.navbar a:last-child{
+    background: black;
+    color: #919b9f;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.navbar a:last-child:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #919b9f;
     color: black;
 }
