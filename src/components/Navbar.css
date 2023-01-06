@@ -1,0 +1,18 @@
+.navbar{
+    background: #919b9f;
+    padding: 15px;
+    color: black;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.navbar a.brand{
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
