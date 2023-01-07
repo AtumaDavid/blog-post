@@ -1,0 +1,46 @@
+.create{
+    max-width: 1500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.create h3{
+    margin-bottom: 100px;
+    text-decoration: underline #919b9f;
+}
+
+.create label {
+    display: block;
+    margin: 40px 0px;
+}
+
+.create input, .create textarea{
+    padding: 10px;
+    display: block;
+    border-radius: 6px;
+    width: 100%;
+    border: 3px solid #919b9f;
+    font-size: 1em;
+}
+
+.create textarea{
+    height: 200px;
+}
+
+.create .btn{
+    padding: 20px;
+    background: black;
+    color: #919b9f;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+.create .btn:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #919b9f;
+    color: black;
+}
+

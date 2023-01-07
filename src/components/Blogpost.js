@@ -10,8 +10,10 @@ export default function Blogpost({ post }) {
       {post.map((writeUps) => (
         <div className="blog-post-card" key={writeUps.id}>
           <h3>{writeUps.title}</h3>
-          <p>{writeUps.article.substring(0, 200)}...</p>
-          <Link to={`/article/${writeUps.id}`}>Read</Link>
+          <p>
+            {writeUps.article.substring(0, 200)}...{" "}
+            <Link to={`/article/${writeUps.id}`}>Read more</Link>
+          </p>
         </div>
       ))}
     </div>
