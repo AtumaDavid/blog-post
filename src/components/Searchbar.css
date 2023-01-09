@@ -1,0 +1,31 @@
+.search-bar{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+   padding: 3px;
+    border-radius: 6px;
+    border: 3px solid #919b9f;
+    font-size: 1em;
+    
+}
+
+.search-bar button{
+    background: black;
+    color: #919b9f;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    margin-left: 4px;
+    padding: 2px;
+}
+
+.search-bar button:hover{
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    background: #919b9f;
+    color: black;
+}

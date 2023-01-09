@@ -28,7 +28,7 @@
 }
 
 .create .btn{
-    padding: 20px;
+    /* padding: 20px; */
     background: black;
     color: #919b9f;
     border-radius: 8px;
@@ -38,7 +38,7 @@
 }
 
 .create .btn:hover{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 4px;
     background: #919b9f;
     color: black;
